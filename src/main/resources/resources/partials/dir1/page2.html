@@ -1,8 +1,17 @@
-<div>
+<div ng-controller="Page2Ctrl">
 
   <div class="jumbotron">
     <h1>Page2</h1>
     <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <div ng-cloak="ng-cloak">
+      <p>entity3</p>
+      <ul>
+        <li>ID: {{entity3.id}}</li>
+        <li>Name: {{entity3.name}}</li>
+        <li>E-Mail: {{entity3.email}}</li>
+      </ul>
+    </div>
+    <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
   </div>
 
 </div>
